@@ -23,6 +23,12 @@
 ```js
 mainSlider.simplySlider({ settings });
 ```
-### ***settings*** можно оставит пустым, будут использоваться стандартные настройки
-
-   
+### Оставив ***settings*** пустым, будут использоваться стандартные настройки
+Option | Type | Default | Description
+------ | ---- | ------- | -----------
+slidesWidth | int | 300 | Ширина слайда в пикселях
+slidesHeight | int | 200 | Высота слайда в пикселях
+nav | boolean | true | Использование конпок слайдера. Если false, то autoplay:true
+autoplay | boolean | false | Автовоспроизведение
+autoplaySpeed | int | 2000 | Скорость автовоспроизведения в мс.
+slides | int | 1 | Количество отображаемых слайдов
