@@ -21,10 +21,11 @@
 ```
 ### main_slider класс для примера, чтобы он использовал simply_slider нужно в собственном файле скрипта указать:
 ```js
+let mainSlider = document.querySelector('.main_slider');
 mainSlider.simplySlider({ settings });
 ```
 ### Оставив ***settings*** пустым, будут использоваться стандартные настройки
-Option | Type | Default | Description
+Настройки | Тип | Стандартное значение | Описание
 ------ | ---- | ------- | -----------
 slidesWidth | int | 300 | Ширина слайда в пикселях
 slidesHeight | int | 200 | Высота слайда в пикселях
